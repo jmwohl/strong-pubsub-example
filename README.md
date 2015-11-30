@@ -34,7 +34,7 @@ To subscribe:
 $ TOPIC=foo PORT=6000 node sub
 
 # subscribe to the TCP bridge
-$ TOPIC=foo PORT=3000 node sub
+$ TOPIC=foo PORT=4000 node sub
 ```
 
 To publish a message:
@@ -44,5 +44,5 @@ To publish a message:
 $ TOPIC=foo PORT=6000 node pub
 
 # publish to the TCP bridge
-$ TOPIC=foo PORT=3000 node pub
+$ TOPIC=foo PORT=4000 node pub
 ```
